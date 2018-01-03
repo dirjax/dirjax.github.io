@@ -51,7 +51,7 @@ So far the basic usage of Ansible Vault.
 \+ https://docs.ansible.com/ansible/2.4/vault.html
 
 
-<br><br>
+<br><br><br>
 ### Basic GPG usage (and keychain)
 
 **What is GPG?**  
@@ -127,7 +127,7 @@ More (gui?) keychain like tools are available, feel free to find the tool that s
 \+ https://sanctum.geek.nz/arabesque/gnu-linux-crypto-agents/  
 \+ https://www.funtoo.org/Keychain  
 
-<br><br>
+<br><br><br>
 ### Multiple vaults in one repository, what is new in ansible 2.4
 
 Multiple vaults can be used in ansible, until 2.4 one could encrypt a file with one password, and encrypt another file with a second password.  
@@ -174,7 +174,7 @@ If we were to re-encrypt the testing var file of the previous example this would
 
 As you can see with the test label, the label is clear(text)ly is put into the encrypted file, this will greatly add visibility to whom could/should be responsible for the file.
 
-<br><br>
+<br><br><br>
 ### Ultra-Mega-GPG-Vault-Id-Label-Combo!
 At this point we have encrypted secrets, our passwords and vault-ids are still in plaintext, but now we can use our gpg keys to encrypt these.  
 If we were to use the example of Multiple vaults in one repository, what is new in ansible 2.4 (https://github.com/brianmor/ansible-poc )  
