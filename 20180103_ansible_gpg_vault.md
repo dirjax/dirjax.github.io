@@ -47,8 +47,8 @@ examples:
 So far the basic usage of Ansible Vault.
 
 *More reading material:*  
-\+ https://gist.github.com/tristanfisher/e5a306144a637dc739e7  
-\+ https://docs.ansible.com/ansible/2.4/vault.html
+\+ [https://gist.github.com/tristanfisher/e5a306144a637dc739e7]  
+\+ [https://docs.ansible.com/ansible/2.4/vault.html]  
 
 
 <br><br><br>
@@ -56,8 +56,8 @@ So far the basic usage of Ansible Vault.
 
 **What is GPG?**  
 Those unfamiliar with GPG are strongly encouraged to read :  
-\+ http://curtiswallen.com/pgp/  
-\+ https://en.wikipedia.org/wiki/GNU_Privacy_Guard
+\+ [http://curtiswallen.com/pgp/]  
+\+ [https://en.wikipedia.org/wiki/GNU_Privacy_Guard]
 
 **Basic usage:**  
 Before generating your key it might be a good idea to add some entropy to your system, installing rng-tools will vastly improve this.  
@@ -119,13 +119,13 @@ If you would like keychain to load your ssh keys you may add ssh to the agents l
 **beware:** *for full gpg2 compatibility keychain version 2.8.4 or higher is required !*
 
 More (gui?) keychain like tools are available, feel free to find the tool that suits your needs:  
-\+ https://gnupg.org/software/frontends.html  
+\+ [https://gnupg.org/software/frontends.html]  
 
 *More reading materials:*  
-\+ https://www.gnupg.org/gph/en/manual/c14.html  
-\+ http://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/  
-\+ https://sanctum.geek.nz/arabesque/gnu-linux-crypto-agents/  
-\+ https://www.funtoo.org/Keychain  
+\+ [https://www.gnupg.org/gph/en/manual/c14.html]  
+\+ [http://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/]  
+\+ [https://sanctum.geek.nz/arabesque/gnu-linux-crypto-agents/]  
+\+ [https://www.funtoo.org/Keychain]  
 
 <br><br><br>
 ### Multiple vaults in one repository, what is new in ansible 2.4
@@ -133,7 +133,7 @@ More (gui?) keychain like tools are available, feel free to find the tool that s
 Multiple vaults can be used in ansible, until 2.4 one could encrypt a file with one password, and encrypt another file with a second password.  
 Unless both files were needed at the same time this would work well enough.  
 
-One of the Proof of Concepts done around this can be found here: https://github.com/brianmor/ansible-poc  
+One of the Proof of Concepts done around this can be found here: [https://github.com/brianmor/ansible-poc]  
 In the case of the poc above one would launch the Vault view command like this:
 
 > user ~ansible/ > ansible-vault view  --vault-password-file vault_pass_production.txt inventories/production/group_vars/all/vault  
@@ -141,11 +141,11 @@ In the case of the poc above one would launch the Vault view command like this:
 
 
 **multiple passwords and Vault Ids:**
-With Ansible 2.4 some additions have been made to the vaults part: https://docs.ansible.com/ansible/2.4/vault.html  
+With Ansible 2.4 some additions have been made to the vaults part: [https://docs.ansible.com/ansible/2.4/vault.html]  
 Multiple vault-id options can be used when editing encrypted files or vars, and the addition of labels makes it easier to see what vault-id was used to encrypt the values.  
 
 These changes made it easier to use different vault ids (passwords) for different parts of ones environment (rnd, dev, test, uat, prod, or even others) in a repository.  
-It goes without saying that added configuration and environment variables were added to ansible to support this new way of working (https://docs.ansible.com/ansible/2.4/config.html#default-vault-id-match ).  
+It goes without saying that added configuration and environment variables were added to ansible to support this new way of working ([https://docs.ansible.com/ansible/2.4/config.html#default-vault-id-match] ).  
 > DEFAULT_VAULT_ID_MATCH / ANSIBLE_VAULT_ID_MATCH  
 > DEFAULT_VAULT_IDENTITY / ANSIBLE_VAULT_IDENTITY  
 > DEFAULT_VAULT_IDENTITY_LIST / ANSIBLE_VAULT_IDENTITY_LIST  
@@ -177,7 +177,7 @@ As you can see with the test label, the label is clear(text)ly is put into the e
 <br><br><br>
 ### Ultra-Mega-GPG-Vault-Id-Label-Combo!
 At this point we have encrypted secrets, our passwords and vault-ids are still in plaintext, but now we can use our gpg keys to encrypt these.  
-If we were to use the example of Multiple vaults in one repository, what is new in ansible 2.4 (https://github.com/brianmor/ansible-poc )  
+If we were to use the example of Multiple vaults in one repository, what is new in ansible 2.4 ([https://github.com/brianmor/ansible-poc] )  
 The test user should only have access to his own group vars and not the production values, and the production user should be able to access the testing variabels as base to prepare the needed production variables.  
 This means that the vault_pass_testing.txt should be gpg encrypted with both test as prod recipients, and the vault_pass_production.txt only with prod as recipient.  
 
@@ -247,9 +247,9 @@ As you can see the production has access to both encrypted files, while the test
 This can be coupled with various users, groups and offcourse the use of scripts will only help making this easily maintainable
 
 *More reading materials:*  
-\+ https://disjoint.ca/til/2016/12/14/encrypting-the-ansible-vault-passphrase-using-gpg/  
-\+ https://ahlers.me/blog/using-vault-to-unlock-gpg-keys/  
-\+ https://benincosa.com/?p=3235  
+\+ [https://disjoint.ca/til/2016/12/14/encrypting-the-ansible-vault-passphrase-using-gpg/]  
+\+ [https://ahlers.me/blog/using-vault-to-unlock-gpg-keys/]  
+\+ [https://benincosa.com/?p=3235]  
 
 
 
