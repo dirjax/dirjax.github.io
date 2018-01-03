@@ -3,11 +3,10 @@
 These pages will explain how gpg and ansible 2.4+ can be used to have various degrees of secrets within a single repository.
 Personal, shared, team, company secrets and even cookies can be had.
 
-
-* Basic Ansible Vault usage
-* Basic GPG usage (and keychain)
-* Multiple vaults in one repository, what is new in ansible 2.4
-* Ultra-Mega-GPG-Vault-Id-Label-Combo!
+* [Basic Ansible Vault usage](#basic-ansible-vault-usage)
+* [Basic GPG usage (and keychain)](#basic-gpg-usage-and-keychain)
+* [Multiple vaults in one repository, what is new in ansible 2.4](#multiple-vaults-in-one-repository-what-is-new-in-ansible-24)
+* [Ultra-Mega-GPG-Vault-Id-Label-Combo!](#ultra-mega-gpg-vault-id-label-combo)
 
 <br>
 ### Basic Ansible Vault usage
