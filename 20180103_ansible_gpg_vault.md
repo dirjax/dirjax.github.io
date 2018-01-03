@@ -83,12 +83,12 @@ Optional:
 > gpg2 --list-secret-keys  
 
 **Generating a revocation certificate:**  
-> gpg2 --output revoke.asc --gen-revoke (email|key-id|name)  
+> gpg2 --output revoke.asc --gen-revoke (email\|key-id\|name)  
 
 If you forget your passphrase or if your private key is compromised or lost, this revocation certificate may be published to notify others that the public key should no longer be used.
 
 **Exporting a public key (will be needed later on)**  
-> gpg2 --armor --export (email|key-id|name) > keyname_gpg.pub
+> gpg2 --armor --export (email\|key-id\|name) > keyname_gpg.pub
 
 This file may be shared with everyone that may encrypt a message or a file towards you.
 
@@ -96,7 +96,7 @@ This file may be shared with everyone that may encrypt a message or a file towar
 > gpg2 --import keyname_gpg.pub  
 
 **Encrypt a document:**  
-> gpg2 --output document.gpg --encrypt --recipient (email|key-id|name) document  
+> gpg2 --output document.gpg --encrypt --recipient (email\|key-id\|name) document  
 
 The recipient option is repeated for every public key of the users you wish to be able to decrypt the message.  
 
@@ -111,7 +111,7 @@ That's all there is to it! ...
 
 Keychain is a daemon that will load ssh and gpg keys for your user and keep them "unlocked" as long as your computer is running (or the timeout you specify).  
 Add the following to your ~/.bashrc (or similar configuration file):  
-> eval \`keychain --gpg2 --eval --agents gpg (email|key-id|name) --nogui\`  
+> eval \`keychain --gpg2 --eval --agents gpg (email\|key-id\|name) --nogui\`  
 
 Depending on your setup you might need to remove --gpg2 from the command, depending on your preferences even the --nogui can go.  
 If you would like keychain to load your ssh keys you may add ssh to the agents like this: --agents gpg,ssh  
