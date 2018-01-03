@@ -15,7 +15,7 @@ Ansible comes with ansible-vault, a program that will let you encrypt files (als
 **Easy usage:**  
 > ansible-vault encrypt ~/file/to/encrypt.yml  
 
-Ansible Vault will ask you for a password, encrypt the whole file.
+Ansible Vault will ask you for a password, encrypt the whole file.  
 Whenever ansible will need to read the file (be it in playbooks, roles or in plain task mode) it will ask you for that password decrypt it in memory and use what it needs from it.
 
 
@@ -34,15 +34,15 @@ This will not change the file, so version control stays happy.
 Ansible Vault passwords can be put in a file, when using the flag --vault-password-file or the Environment Variable ANSIBLE_VAULT_PASSWORD_FILE you don't need to enter a password.
 
 examples:  
-> ansible-vault encrypt --vault-password-file ~/.ansible_secret_password ~/file/to/encrypt.yml
-> ansible-vault edit --vault-password-file ~/.ansible_secret_password ~/file/to/encrypt.yml
+> ansible-vault encrypt --vault-password-file ~/.ansible_secret_password ~/file/to/encrypt.yml  
+> ansible-vault edit --vault-password-file ~/.ansible_secret_password ~/file/to/encrypt.yml  
 > ansible-vault view --vault-password-file ~/.ansible_secret_password ~/file/to/encrypt.yml  
 
 <!-- -->
-> export ANSIBLE_VAULT_PASSWORD_FILE="~/.ansible_secret_password"
-> ansible-vault encrypt ~/file/to/encrypt.yml
-> ansible-vault edit ~/file/to/encrypt.yml
-> ansible-vault view ~/file/to/encrypt.yml
+> export ANSIBLE_VAULT_PASSWORD_FILE="~/.ansible_secret_password"  
+> ansible-vault encrypt ~/file/to/encrypt.yml  
+> ansible-vault edit ~/file/to/encrypt.yml  
+> ansible-vault view ~/file/to/encrypt.yml  
 
 So far the basic usage of Ansible Vault.
 
@@ -87,7 +87,7 @@ Optional:
 
 If you forget your passphrase or if your private key is compromised or lost, this revocation certificate may be published to notify others that the public key should no longer be used.
 
-**Exporting a public key (will be needed later on)**
+**Exporting a public key (will be needed later on)**  
 > gpg2 --armor --export (email|key-id|name) > keyname_gpg.pub
 
 This file may be shared with everyone that may encrypt a message or a file towards you.
@@ -146,9 +146,9 @@ Multiple vault-id options can be used when editing encrypted files or vars, and 
 
 These changes made it easier to use different vault ids (passwords) for different parts of ones environment (rnd, dev, test, uat, prod, or even others) in a repository.  
 It goes without saying that added configuration and environment variables were added to ansible to support this new way of working (https://docs.ansible.com/ansible/2.4/config.html#default-vault-id-match ).  
-> DEFAULT_VAULT_ID_MATCH / ANSIBLE_VAULT_ID_MATCH
-> DEFAULT_VAULT_IDENTITY / ANSIBLE_VAULT_IDENTITY
-> DEFAULT_VAULT_IDENTITY_LIST / ANSIBLE_VAULT_IDENTITY_LIST
+> DEFAULT_VAULT_ID_MATCH / ANSIBLE_VAULT_ID_MATCH  
+> DEFAULT_VAULT_IDENTITY / ANSIBLE_VAULT_IDENTITY  
+> DEFAULT_VAULT_IDENTITY_LIST / ANSIBLE_VAULT_IDENTITY_LIST  
 
 in the previous example with Ansible 2.4 you could now launch  
 > user ~ansible/ > ansible-vault view  --vault-id vault_pass_production.txt --vault-id vault_pass_testing.txt  inventories/production/group_vars/all/vault inventories/testing/group_vars/all/vault  
@@ -159,18 +159,18 @@ and you would see both items decrypted.
 Also new in ansible 2.4 is the addition of labeled vault-ids.  
 You can add (and in shared repositories should) a label by just using it in front of the vault-id.  
 
-If we were to re-encrypt the testing var file of the previous example this would result in:
-> test /ansible > head -n 1 inventories/testing/group_vars/all/vault
-> $ANSIBLE_VAULT;1.1;AES256
+If we were to re-encrypt the testing var file of the previous example this would result in:  
+> test /ansible > head -n 1 inventories/testing/group_vars/all/vault  
+> $ANSIBLE_VAULT;1.1;AES256  
 
-> test /ansible > ansible-vault rekey --vault-id vault_pass_testing.txt   --new-vault-id=test@vault_pass_testing.txt inventories/testing/group_vars/all/vault
-> Rekey successful
+> test /ansible > ansible-vault rekey --vault-id vault_pass_testing.txt   --new-vault-id=test@vault_pass_testing.txt inventories/testing/group_vars/all/vault  
+> Rekey successful  
 
-> test /ansible > head -n 1 inventories/testing/group_vars/all/vault
-> $ANSIBLE_VAULT;1.2;AES256;test
+> test /ansible > head -n 1 inventories/testing/group_vars/all/vault  
+> $ANSIBLE_VAULT;1.2;AES256;test  
 
-> prod /ansible > ansible-vault rekey --vault-id vault_pass_production.txt   --new-vault-id=prod@vault_pass_production.txt inventories/production/group_vars/all/vault
-> Rekey successful
+> prod /ansible > ansible-vault rekey --vault-id vault_pass_production.txt   --new-vault-id=prod@vault_pass_production.txt inventories/production/group_vars/all/vault  
+> Rekey successful    
 
 As you can see with the test label, the label is clear(text)ly is put into the encrypted file, this will greatly add visibility to whom could/should be responsible for the file.
 
@@ -184,70 +184,72 @@ This means that the vault_pass_testing.txt should be gpg encrypted with both tes
 Both users have exported their public gpg keys in the ansible folder as username_pub.gpg
 
 As a prod user we would first import all needed gpg keys and encrypt our secret vault-id and then encrypt the test vault-id for both users:  
-> prod ~/ansible > gpg --import /ansible/*gpg
-> gpg: key 4D9F6B40B36C0F8B: "Bruce Wayne (I'm Batman) <prod@gpg.com>" not changed
-> gpg: key 56DB3809C2147E28: public key "John Wayne (shoots bugs) <test@gpg.com>" imported
-> gpg: Total number processed: 2
-> gpg:               imported: 1
-> gpg:              unchanged: 1
-> prod ~/ansible > gpg --encrypt --recipient prod@gpg.com vault_pass_production.txt
-> prod ~/ansible > gpg --encrypt --recipient prod@gpg.com --recipient test@gpg.com vault_pass_testing.txt
-> prod ~/ansible > ls vault_pass_* -1
-> vault_pass_production.txt
-> vault_pass_production.txt.gpg
-> vault_pass_testing.txt
-> vault_pass_testing.txt.gpg
+> prod ~/ansible > gpg --import /ansible/*gpg  
+> gpg: key 4D9F6B40B36C0F8B: "Bruce Wayne (I'm Batman) <prod@gpg.com>" not changed  
+> gpg: key 56DB3809C2147E28: public key "John Wayne (shoots bugs) <test@gpg.com>" imported  
+> gpg: Total number processed: 2  
+> gpg:               imported: 1  
+> gpg:              unchanged: 1  
+> prod ~/ansible > gpg --encrypt --recipient prod@gpg.com vault_pass_production.txt  
+> prod ~/ansible > gpg --encrypt --recipient prod@gpg.com --recipient test@gpg.com vault_pass_testing.txt  
+> prod ~/ansible > ls vault_pass_* -1  
+> vault_pass_production.txt  
+> vault_pass_production.txt.gpg  
+> vault_pass_testing.txt  
+> vault_pass_testing.txt.gpg  
+
+We can throw the regular txt files in the trash!
 
 **We create the following vault decryption scripts:**  
 *vault_prod.sh:*  
-> \#!/bin/bash
+> \#!/bin/bash  
 > gpg --batch --use-agent --decrypt vault_pass_production.txt.gpg 2>/dev/null
 
 *vault_test.sh:*  
-> \#!/bin/bash
+> \#!/bin/bash  
 > gpg --batch --use-agent --decrypt vault_pass_testing.txt.gpg 2>/dev/null
 
 The prod user can set an environment variable pointing to the vault ids and decrypt all files  
-> prod ~/ansible > export ANSIBLE_VAULT_IDENTITY_LIST="prod@vault_prod.sh,test@vault_test.sh"
+> prod ~/ansible > export ANSIBLE_VAULT_IDENTITY_LIST="prod@vault_prod.sh,test@vault_test.sh"  
 > prod ~/ansible > ansible-vault view inventories/production/group_vars/all/vault  
-> \-\-\-
-> 
-> vault_www_db_usr : brian-prd-u
-> vault_www_db_psw : qwe123
-> 
+> \-\-\-  
+>   
+> vault_www_db_usr : brian-prd-u  
+> vault_www_db_psw : qwe123  
+>   
 > prod ~/ansible > ansible-vault view inventories/testing/group_vars/all/vault  
-> \-\-\-
-> 
-> vault_www_db_usr : brian-tst-u
-> vault_www_db_psw : 12345
+> \-\-\-  
+>   
+> vault_www_db_usr : brian-tst-u  
+> vault_www_db_psw : 12345  
 
 remember we encrypted the testing vault file with the password in vault_pass_testing.txt, not the production one.
 
 as a test user we can only decrypt the production gpg file, so even when we export the same list mileage will vary:
 
-> test ~/ansible > export ANSIBLE_VAULT_IDENTITY_LIST="prod@vault_prod.sh,test@vault_test.sh"
-> test ~/ansible > ansible-vault view inventories/production/group_vars/all/vault
-> [WARNING]: Error in vault password file loading (prod): Vault password script ~/ansible/vault_prod.sh returned non-zero (2): None
-> 
-> ERROR! Vault password script ~/ansible/vault_prod.sh returned non-zero (2): None
-> 
-> test ~/ansible > export ANSIBLE_VAULT_IDENTITY_LIST="test@vault_test.sh"
-> test ~/ansible > ansible-vault view inventories/production/group_vars/all/vault
-> ERROR! Decryption failed (no vault secrets would found that could decrypt) for inventories/production/group_vars/all/vault
-> test ~/ansible > ansible-vault view inventories/testing/group_vars/all/vault
-> \-\-\-
-> 
-> vault_www_db_usr : brian-tst-u
-> vault_www_db_psw : 12345
+> test ~/ansible > export ANSIBLE_VAULT_IDENTITY_LIST="prod@vault_prod.sh,test@vault_test.sh"  
+> test ~/ansible > ansible-vault view inventories/production/group_vars/all/vault  
+> [WARNING]: Error in vault password file loading (prod): Vault password script ~/ansible/vault_prod.sh returned non-zero (2): None  
+>   
+> ERROR! Vault password script ~/ansible/vault_prod.sh returned non-zero (2): None  
+>   
+> test ~/ansible > export ANSIBLE_VAULT_IDENTITY_LIST="test@vault_test.sh"  
+> test ~/ansible > ansible-vault view inventories/production/group_vars/all/vault  
+> ERROR! Decryption failed (no vault secrets would found that could decrypt) for inventories/production/group_vars/all/vault  
+> test ~/ansible > ansible-vault view inventories/testing/group_vars/all/vault  
+> \-\-\-  
+>   
+> vault_www_db_usr : brian-tst-u  
+> vault_www_db_psw : 12345  
 
 As you can see the production has access to both encrypted files, while the test user only has access to his own environment.
 
 This can be coupled with various users, groups and offcourse the use of scripts will only help making this easily maintainable
 
 *More reading materials:*  
-\+ https://disjoint.ca/til/2016/12/14/encrypting-the-ansible-vault-passphrase-using-gpg/
-\+ https://ahlers.me/blog/using-vault-to-unlock-gpg-keys/
-\+ https://benincosa.com/?p=3235
+\+ https://disjoint.ca/til/2016/12/14/encrypting-the-ansible-vault-passphrase-using-gpg/  
+\+ https://ahlers.me/blog/using-vault-to-unlock-gpg-keys/  
+\+ https://benincosa.com/?p=3235  
 
 
 
