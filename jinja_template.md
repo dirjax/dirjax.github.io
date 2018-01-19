@@ -1,6 +1,14 @@
 ### deel van de hostvars:
->  "ferm_host_rules": [{"match": "saddr ({% for ssh_host in (groups.jumphost + groups.admin) %}{% if ssh_host != inventory_hostname %}{{ hostvars[ssh_host].ansible_all_ipv4_addresses|join(\" \")}}{% if not loop.last %} {% endif %}{% endif %}{% endfor %})"}],   
-> "ferm_rules_all": [{"match": "saddr ({% for ssh_host in (groups.jumphost + groups.admin) %}{% if ssh_host != inventory_hostname %}{{ hostvars[ssh_host].ansible_all_ipv4_addresses|join(\" \")}}{% if not loop.last %} {% endif %}{% endif %}{% endfor %})"}],   
+>  "ferm_host_rules": [  
+>     {  
+>         "match": "saddr ({% for ssh_host in (groups.jumphost + groups.admin) %}{% if ssh_host != inventory_hostname %}{{ hostvars[ssh_host].ansible_all_ipv4_addresses|join(\" \")}}{% if not loop.last %} {% endif %}{% endif %}{% endfor %})",   
+>     }  
+> ],   
+> "ferm_rules_all": [  
+>     {  
+>         "match": "saddr ({% for ssh_host in (groups.jumphost + groups.admin) %}{% if ssh_host != inventory_hostname %}{{ hostvars[ssh_host].ansible_all_ipv4_addresses|join(\" \")}}{% if not loop.last %} {% endif %}{% endif %}{% endfor %})",   
+>     }  
+> ],   
 
 
 ### jinja template:
