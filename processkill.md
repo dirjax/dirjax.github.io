@@ -24,7 +24,7 @@ Actually, you may notice that it's just the way from #2
 > pkill -9 -G $GID
 
 6. Using pkill, kill processes by PPID(Parent Process ID)*
-> pkill -9 -p $PPID
+> pkill -9 -P $PPID
 
 7. Using pkill, kill processes by terminal
 > pkill -9 -t $terminal
