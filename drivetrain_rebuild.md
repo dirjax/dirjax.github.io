@@ -54,25 +54,24 @@ The driveside crank however proved to be more of a challenge. The crankset I bou
 
 ![68/118 crankshaft](drivetrain_rebuild/68_118_crankshaft.jpg)
   
-One purchase later the old crankshaft had to be removed, this one had actually seized into the frame, more than probobly due to age and not being used, so I had to take it to a nearby motorcycle shop to get it loosened with an impact wrench. Cleaning out the frame and putting in the new crankshaft actually proved no real help, the crank still needed to be turned in too far to the frame and I could not tune the front derailleur enough, the chain would keep rubbing against it. Again contact with the support desk was sought, but as the cranks attachment was deeper set into the crank than originally it wasn't odd the size of the crankshaft would need to fit the 73mm frame but would need to be wider than the 118mm the shop kept proposing.  
+One purchase later the old crankshaft had to be removed, this one had actually seized into the frame, more than probably due to age and not being used, so I had to take it to a nearby motorcycle shop to get it loosened with an impact wrench. Cleaning out the frame and putting in the new crankshaft actually proved no real help, the crank still needed to be turned in too far to the frame and I could not tune the front derailleur enough to keep the chain from grinding against it. Again contact with the support desk was sought, but as the cranks attachment was deeper set into the crank than originally it wasn't odd the size of the crankshaft would need to fit the 73mm frame but would need to be wider than the 118mm the shop kept proposing.  
   
-That saturday I sent a mail to the shop to complain about the "specialists", but I also looked around on other shops for a crankshaft that would fit the frame and have a larger shaft in itself, a fitting 73/121 crankshaft was found and ordered. On monday I got a reply from the original shop that they did not have the right crankshaft for me on the webshop, but that another specialist found one in stock and they would send it right away. Looking at the specs of the crankshaft, instead of the original 68/118 they sent me the replacement would now be a 73/121, we all know that won't fit by now. Both new crankshafts arrived on tuesday, so I was out working in the nice weather, with four crankshafts, an old 73/118, a new 73/118, the bad 68/118 and a possible solution, the 73/121mm specced crankshaft. After fitting the newly sent 73/118, the chain would indeed still rub against the front derailleur when it's positioned on the largest of the cassettes' sprockets.
-  
+That saturday I sent a mail to the shop to complain about the "specialists", but I also looked around on other shops for a crankshaft that would fit the frame and have a larger shaft in itself, a fitting 73/121 crankshaft was found and ordered. On monday I got a reply from the original shop that they did not have the right crankshaft for me on the webshop, but that another specialist found one in stock and they would send it right away. Looking at the specs of the crankshaft, instead of the original 68/118 they sent me the replacement would now be a 73/118, by now I was already assured it would not fit.  
+Both new crankshafts arrived on tuesday, so I was out working in the nice weather, with four crankshafts, an old 73/118, a new 73/118, the bad 68/118 and a possible solution: the 73/121mm specced crankshaft. After fitting the newly sent 73/118, the chain would indeed still grind against the front derailleur when it's positioned on the largest of the cassettes' sprockets.
 
 
 The 73/121 crankshaft however reduced that to a very slight rub after tuning the front derailleur only on the largest rear sprocket, apparently the right crankshaft would have been the 73/126mm, but that one is currently out of stock at both shops I ordered from. Having only one unusable sprocket left, I was actually quite happy that I could go for a ride, only two things left now...   
 
 First off, I won a voucher from my employer to use on sporting/learning and I took the opportunity to upgrade the seat of the mountainbike to a slightly more comfortable one, Thanks !
 
-| :-: | :-: | :-: |
-| ![old seat](drivetrain_rebuild/old_seat.jpg) <br> ![seat parts](drivetrain_rebuild/seat_parts.jpg) | ![seat](drivetrain_rebuild/seat.jpg) |
+![old seat](drivetrain_rebuild/old_seat.jpg) ![seat](drivetrain_rebuild/seat.jpg) 
 
-After that, I still needed to tune the derailleurs so that the chain dances around over the sprockets instead of grinding and switching gears unwanted. This sure took a little while to understand the subtilities of the different screws.  
+After that, I still needed to tune the derailleurs so that the chain dances around over the sprockets instead of grinding and switching gears unwanted. This sure took a little while to understand the subtilities of the different screws. But the great explanation in the Park Tool videos (link in \[[Sources](#sources)\]) helped tremendously.
 
 
 ## Result
 
-After two inspection runs today, I can say that the bike runs and shifts great, the only issue I could find was the chain "skipping a beat" when going uphill on the more heavy gears, I suspect I need to learn to better rivet my chain as it could be a chainlink that's seized, to be investigated.  
+After two inspection runs today, I can say that the bike runs and shifts great, the only issue I could find was the chain "skipping a beat" when going uphill on the heavier gears, shifting to a lower gear helps but I suspect I need to learn to better rivet my chain as it could be a chainlink that's seized, to be investigated.  
 ![testride](drivetrain_rebuild/testride.jpg)
 
 
