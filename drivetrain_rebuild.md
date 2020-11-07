@@ -5,7 +5,7 @@ A few initial trips around the local waterflow and some rides in nearby woods pr
 and when the chain broke I was eager enough to also want to replace the front and rear sprockets. 
 
 On this page I will explain how I rebuild my drivetrain on a mountainbike from 2009, or 2008 forgot to ask the previous owner.  
-\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Solution](#solution)\]  /  \[[Test & results](#test-&-results)\]  
+\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Solution](#solution)\]  /  \[[Test & results](#test--results)\]  
 
 
 ## Parts
@@ -42,7 +42,7 @@ Seeing this part should should not have suffered as much as the sprockets I did 
 - Bracketplug (for crankshaft removal)  
   
   
-## Assemby
+## Assembly
 
 Removing most items proved easy enough, no seized items, and removing the cassette and cranks was more than easy enough with the right tools. The cassette was replaced quite easily, the driveside crank however proved to be more of a challenge. The crankset I bought was aimed at a more recent bike than mine, and I could not secure it without fixing it in place.
 
