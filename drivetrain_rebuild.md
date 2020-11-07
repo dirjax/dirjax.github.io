@@ -83,14 +83,11 @@ I learned quite a bit on the bike's drivetrain and while it was not a frustratio
 
 ## Sources
 
-Most of the parts and tools came from https://www.mantel.com/be, I like their shop, delivery and support line, just don't trust their specialists too much.  
-Thanks to https://www.bikester.be who had the "almost right" crankshaft in stock, at least I can use the bike again.  
+Most of the parts and tools came from ![https://www.mantel.com/be](https://www.mantel.com/be), I like their shop, delivery and support line, just don't trust their specialists too much.  
+Thanks to ![https://www.bikester.be](https://www.bikester.be) who had the "almost right" crankshaft in stock, at least I can use the bike again.  
 And a big shoutout to Park Tool, who actually put together some great public How-To videos:  
-- [![cassette replacement](https://img.youtube.com/vi/9KAaP7pbFV0/0.jpg)](https://www.youtube.com/watch?v=9KAaP7pbFV0 "cassette replacement")  
-- [![chain sizing and repair](https://img.youtube.com/vi/O0YibMDWBAw/0.jpg)](https://www.youtube.com/watch?v=O0YibMDWBAw "chain sizing and repair")  
-- [![crankset replacement](https://img.youtube.com/vi/cPQyQnNdews/0.jpg)](https://www.youtube.com/watch?v=cPQyQnNdews "crankset replacement")  
-- [![tune front derailleur](https://img.youtube.com/vi/ZNG7g83lI-s/0.jpg)](https://www.youtube.com/watch?v=ZNG7g83lI-s "tune front derailleur")  
-- [![tune rear derailleur](https://img.youtube.com/vi/UkZxPIZ1ngY/0.jpg)](https://www.youtube.com/watch?v=UkZxPIZ1ngY "tune rear derailleur")  
-
+[![cassette replacement](https://img.youtube.com/vi/9KAaP7pbFV0/0.jpg)](https://www.youtube.com/watch?v=9KAaP7pbFV0) [![crankset replacement](https://img.youtube.com/vi/cPQyQnNdews/0.jpg)](https://www.youtube.com/watch?v=cPQyQnNdews)  
+[![tune front derailleur](https://img.youtube.com/vi/ZNG7g83lI-s/0.jpg)](https://www.youtube.com/watch?v=ZNG7g83lI-s)  [![tune rear derailleur](https://img.youtube.com/vi/UkZxPIZ1ngY/0.jpg)](https://www.youtube.com/watch?v=UkZxPIZ1ngY)  
+[![chain sizing and repair](https://img.youtube.com/vi/O0YibMDWBAw/0.jpg)](https://www.youtube.com/watch?v=O0YibMDWBAw)  
 
 #edited 7 november 2020
