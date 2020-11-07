@@ -6,7 +6,7 @@ A few initial trips around the local waterflow and some rides in nearby woods pr
 and when the chain broke I was eager enough to also want to replace the front and rear sprockets. 
 
 On this page I will explain how I rebuild my drivetrain on a mountainbike from 2009, or 2008 forgot to ask the previous owner.  
-\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Solution](#solution)\]  /  \[[Result](#result)\]  /  \[[Sources](#sources)\]  
+\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Result](#result)\]  /  \[[Sources](#sources)\]  
 
 
 ## Parts
