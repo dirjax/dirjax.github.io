@@ -1,3 +1,4 @@
 # dirjax.github.io
 
-[2018-01-03 Ansible GPG Vault Usage ](20180103_ansible_gpg_vault.md)
+[Ansible and GPG Vault Usage](ansible_gpg_vault.md)
+[Bycicle Drivetrain Rebuild](drivetrain_rebuild.md)
