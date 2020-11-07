@@ -23,7 +23,7 @@ On this page I will explain how I rebuild my drivetrain on a mountainbike from 2
 
 | :-- | :-- |
 | front derailleur | ![front derailleur](drivetrain_rebuild/front_derailleur.png) |
-| rear derailleur | ![rear derailleur](drivetrain_rebuild/rear_derailleur.png) |
+| rear derailleur | ![rear derailleur](drivetrain_rebuild/rear_derailleur.png) |  
 I would also replaced the sprockets in the latter.
   
 
