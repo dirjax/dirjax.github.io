@@ -20,14 +20,16 @@ On this page I will explain how I rebuild my drivetrain on a mountainbike from 2
 
   
 ### The chain gets guided by both:  
+
 | :-- | :-- |
 | front derailleur | ![front derailleur](drivetrain_rebuild/front_derailleur.png) |
 | rear derailleur | ![rear derailleur](drivetrain_rebuild/rear_derailleur.png) |
 I would also replaced the sprockets in the latter.
   
 
-### Sadly enough I also got to learn about:  
+### "Sadly" enough I also got to learn about:  
 Seeing this part should should not have suffered as much as the sprockets I did not opt to change this initially.  
+
 | :-- | :-- |
 | crankshaft | ![crankshaft](drivetrain_rebuild/crankshaft.png) |
 
