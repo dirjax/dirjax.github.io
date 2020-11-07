@@ -17,13 +17,13 @@ On this page I will explain how I rebuild my drivetrain on a mountainbike from 2
 | crankset (3 speed here) | ![crank](drivetrain_rebuild/crank.png) |
 | chain | ![chain](drivetrain_rebuild/chain.png) | 
 
-
   
 ### The chain gets guided by both:  
 
 | :-- | :-- |
 | front derailleur | ![front derailleur](drivetrain_rebuild/front_derailleur.png) |
-| rear derailleur | ![rear derailleur](drivetrain_rebuild/rear_derailleur.png) |  
+| rear derailleur | ![rear derailleur](drivetrain_rebuild/rear_derailleur.png) |
+
 I would also replaced the sprockets in the latter.
   
 
@@ -32,10 +32,9 @@ Seeing this part should should not have suffered as much as the sprockets I did 
 
 | :-- | :-- |
 | crankshaft | ![crankshaft](drivetrain_rebuild/crankshaft.png) |
-
   
 
-### As I was used to work on motorcycles but not bycicles I also needed to order a few specific tools for the job ahead.  
+### As I am used to work on motorcycles but not bycicles I also needed to order a few specific tools for the job ahead.  
 - Cassette removal tool  
 - Cassette Chainwhip (keeps the cassette in place while removing it)  
 - Chain rivetting tool  
