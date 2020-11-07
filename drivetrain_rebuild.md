@@ -11,10 +11,13 @@ On this page I will explain how I rebuild my drivetrain on a mountainbike from 2
 ## Parts
 
 ### basic drivetrain elements:
- | cassette (in my case 9 speed) | crankset (3 speed here) | chain | 
- | :-: | :-: | :-: | 
- | ![cassette](drivetrain_rebuild/cassette.png) | ![crank](drivetrain_rebuild/crank.png) | ![chain](drivetrain_rebuild/chain.png) | 
-  
+
+| :-: | :-: |
+| cassette (in my case 9 speed) | ![cassette](drivetrain_rebuild/cassette.png) |
+| crankset (3 speed here) | ![crank](drivetrain_rebuild/crank.png) |
+| chain | ![chain](drivetrain_rebuild/chain.png) | 
+
+
   
 ### The chain gets guided by both:  
 - front derailleur ![front derailleur](drivetrain_rebuild/front_derailleur.png)  
