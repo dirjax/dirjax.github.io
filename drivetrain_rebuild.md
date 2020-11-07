@@ -11,9 +11,8 @@ On this page I will explain how I rebuild my drivetrain on a mountainbike from 2
 ## Parts
 
 ### basic drivetrain elements:
-- cassette (in my case 9 speed ) ![cassette](drivetrain_rebuild/cassette.png)  
-- crankset (3 speed here) ![crank](drivetrain_rebuild/crank.png)  
-- chain ![chain](drivetrain_rebuild/chain.png)  
+- cassette (in my case 9 speed )  /  crankset (3 speed here)  /  chain  
+![cassette](drivetrain_rebuild/cassette.png)  /  ![crank](drivetrain_rebuild/crank.png)  /  ![chain](drivetrain_rebuild/chain.png)  
   
   
 ### The chain gets guided by both:  
@@ -35,7 +34,7 @@ Seeing this part should should not have suffered as much as the sprockets I did 
 - Bracketplug (for crankshaft removal)  
   
   
-  
+
 ## Assemby
 
 Removing most items proved easy enough, no seized items, and removing the cassette and cranks was more than easy enough with the right tools. The cassette was replaced quite easily, the driveside crank however proved to be more of a challenge. The crankset I bought was aimed at a more recent bike than mine, and I could not secure it without fixing it in place.
