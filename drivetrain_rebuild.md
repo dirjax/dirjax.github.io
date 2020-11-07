@@ -63,9 +63,9 @@ That saturday I sent a mail to the shop to complain about the "specialists", but
 The 73/121 crankshaft however reduced that to a very slight rub after tuning the front derailleur only on the largest rear sprocket, apparently the right crankshaft would have been the 73/126mm, but that one is currently out of stock at both shops I ordered from. Having only one unusable sprocket left, I was actually quite happy that I could go for a ride, only two things left now...   
 
 First off, I won a voucher from my employer to use on sporting/learning and I took the opportunity to upgrade the seat of the mountainbike to a slightly more comfortable one, Thanks !
-  
+
 | :-: | :-: | :-: |
-| ![old seat](drivetrain_rebuild/old_seat.jpg) | ![seat parts](drivetrain_rebuild/seat_parts.jpg) | ![seat](drivetrain_rebuild/seat.jpg) |
+| ![old seat](drivetrain_rebuild/old_seat.jpg) <br> ![seat parts](drivetrain_rebuild/seat_parts.jpg) | ![seat](drivetrain_rebuild/seat.jpg) |
 
 After that, I still needed to tune the derailleurs so that the chain dances around over the sprockets instead of grinding and switching gears unwanted. This sure took a little while to understand the subtilities of the different screws.  
 
