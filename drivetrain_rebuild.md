@@ -6,7 +6,7 @@ A few initial trips around the local waterflow and some rides in nearby woods pr
 and when the chain broke I was eager enough to also want to replace the front and rear sprockets. 
 
 On this page I will explain how I rebuild my drivetrain on a mountainbike from 2009, or 2008 forgot to ask the previous owner.  
-\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Solution](#solution)\]  /  \[[Result & sources](#result--sources)\]  
+\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Solution](#solution)\]  /  \[[Result](#result)\]  /  \[[Sources](#sources)\]  
 
 
 ## Parts
@@ -70,7 +70,7 @@ First off, I won a voucher from my employer to use on sporting/learning and I to
 After that, I still needed to tune the derailleurs so that the chain dances around over the sprockets instead of grinding and switching gears unwanted. This sure took a little while to understand the subtilities of the different screws.  
 
 
-## Result & sources
+## Result
 
 After two inspection runs today, I can say that the bike runs and shifts great, the only issue I could find was the chain "skipping a beat" when going uphill on the more heavy gears, I suspect I need to learn to better rivet my chain as it could be a chainlink that's seized, to be investigated.  
 ![testride](drivetrain_rebuild/testride.jpg)
@@ -79,3 +79,18 @@ After two inspection runs today, I can say that the bike runs and shifts great, 
 I learned quite a bit on the bike's drivetrain and while it was not a frustration free experience, doing this myself surely feels good and the experience (and new tools) help me not to get stranded out on a ride somewhere like last time.  
   
 ![finally done](drivetrain_rebuild/finally.jpg)
+  
+
+## Sources
+
+Most of the parts and tools came from https://www.mantel.com/be, I like their shop, delivery and support line, just don't trust their specialists too much.  
+Thanks to https://www.bikester.be who had the "almost right" crankshaft in stock, at least I can use the bike again.  
+And a big shoutout to Park Tool, who actually put together some great public How-To videos:  
+- [![cassette replacement](https://img.youtube.com/vi/9KAaP7pbFV0/0.jpg)](https://www.youtube.com/watch?v=9KAaP7pbFV0 "cassette replacement")  
+- [![chain sizing and repair](https://img.youtube.com/vi/O0YibMDWBAw/0.jpg)](https://www.youtube.com/watch?v=O0YibMDWBAw "chain sizing and repair")  
+- [![crankset replacement](https://img.youtube.com/vi/cPQyQnNdews/0.jpg)](https://www.youtube.com/watch?v=cPQyQnNdews "crankset replacement")  
+- [![tune front derailleur](https://img.youtube.com/vi/ZNG7g83lI-s/0.jpg)](https://www.youtube.com/watch?v=ZNG7g83lI-s "tune front derailleur")  
+- [![tune rear derailleur](https://img.youtube.com/vi/UkZxPIZ1ngY/0.jpg)](https://www.youtube.com/watch?v=UkZxPIZ1ngY "tune rear derailleur")  
+
+
+#edited 7 november 2020
