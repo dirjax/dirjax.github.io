@@ -6,7 +6,7 @@ A few initial trips around the local waterflow and some rides in nearby woods pr
 and when the chain broke I was eager enough to also replace the front and rear sprockets. 
 
 On this page I will explain how I rebuild my drivetrain on a mountainbike from 2009, or 2008 forgot to ask the previous owner.  
-\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Result](#result)\]  /  \[[Sources](#sources)\]  
+\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Result](#result)\]  /  \[[Sources](#sources)\]  /  \[[Updates](#updates)\]  
 
 
 ## Parts
@@ -80,6 +80,12 @@ I learned quite a bit on the bike's drivetrain and while it was not a frustratio
 ![finally done](drivetrain_rebuild/finally.jpg)
   
 
+## Updates
+
+Did a first real test run on the blue loop at Scherpenheuvel ([mtbroutedatabase entry](https://mtbroutedatabase.be/vlaams-brabant/scherpenheuvel.htm)).  
+Almost 27 kilometers in which I noticed my front gearing needs some extra work, but rear gearswitching went superb.  
+The chain is still skipping a beat when pushing heavily, both things to be checked at this weekend. This blue loop is perfect for me, close to home, not too hard but good enough to build up my phisique before pushing on to harder tracks.  
+
 ## Sources
 
 Most of the parts and tools came from [https://www.mantel.com/be](https://www.mantel.com/be), I like their shop, delivery and support line, just don't trust their specialists too much.  
@@ -90,4 +96,5 @@ And a big shoutout to [https://www.parktool.com/](Park Tool), who actually put t
 [![chain sizing and repair](https://img.youtube.com/vi/O0YibMDWBAw/0.jpg)](https://www.youtube.com/watch?v=O0YibMDWBAw)  
 
 #started 7 november 2020
-#updated 9 november 2020
+#updated 10 november 2020
+
