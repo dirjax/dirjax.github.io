@@ -94,7 +94,7 @@ And a big shoutout to [https://www.parktool.com/](Park Tool), who actually put t
 [![cassette replacement](https://img.youtube.com/vi/9KAaP7pbFV0/0.jpg)](https://www.youtube.com/watch?v=9KAaP7pbFV0) [![crankset replacement](https://img.youtube.com/vi/cPQyQnNdews/0.jpg)](https://www.youtube.com/watch?v=cPQyQnNdews)  
 [![tune front derailleur](https://img.youtube.com/vi/ZNG7g83lI-s/0.jpg)](https://www.youtube.com/watch?v=ZNG7g83lI-s)  [![tune rear derailleur](https://img.youtube.com/vi/UkZxPIZ1ngY/0.jpg)](https://www.youtube.com/watch?v=UkZxPIZ1ngY)  
 [![chain sizing and repair](https://img.youtube.com/vi/O0YibMDWBAw/0.jpg)](https://www.youtube.com/watch?v=O0YibMDWBAw)  
-
-#started 7 november 2020
-#updated 10 november 2020
-
+  
+  
+  
+<sub>started 7nov20 / updated 10nov20</sub>
