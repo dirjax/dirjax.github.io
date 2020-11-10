@@ -1,12 +1,14 @@
 # My first time working on a bycicle: 
 # Painfull drivetrain rebuild on my Merida matts TFS 500 XC
-
+  
+\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Result](#result)\]  /  \[[Updates](#updates)\]  /  \[[Sources](#sources)\]  
+  
+  
 In the name of health, a secondhand mountainbike was purchased a few months ago.  
 A few initial trips around the local waterflow and some rides in nearby woods proved to provide enough enjoyment in this new endeavour  
 and when the chain broke I was eager enough to also replace the front and rear sprockets. 
 
 On this page I will explain how I rebuild my drivetrain on a mountainbike from 2009, or 2008 forgot to ask the previous owner.  
-\[[Parts](#parts)\]  /  \[[Assembly](#assembly)\]  /  \[[Result](#result)\]  /  \[[Updates](#updates)\]  /  \[[Sources](#sources)\]  
 
 
 ## Parts
