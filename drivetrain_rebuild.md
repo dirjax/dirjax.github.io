@@ -86,7 +86,7 @@ I learned quite a bit on the bike's drivetrain and while it was not a frustratio
 
 Did a first real test run on the blue loop at Scherpenheuvel ([mtbroutedatabase entry](https://mtbroutedatabase.be/vlaams-brabant/scherpenheuvel.htm)).  
 Almost 27 kilometers in which I noticed my front gearing needs some extra work, but rear gearswitching went superb.  
-The chain is still skipping a beat when pushing heavily, both things to be checked at this weekend. This blue loop is perfect for me, close to home, not too hard but good enough to build up my phisique before pushing on to harder tracks.  
+The chain is still skipping a beat when pushing heavily, both things to be checked at this weekend. This blue loop is perfect for me, close to home, not too hard but good enough to build up my physique before pushing on to harder tracks.  
 
 ## Sources
 
